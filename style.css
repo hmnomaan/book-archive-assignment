@@ -1,0 +1,64 @@
+/* search volume style  */
+
+#search-volume p {
+    font-weight: bold;
+    font-style: 20px;
+}
+
+
+/* book card style */
+
+.book-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.book-card img {
+    width: 240px;
+    height: 240px;
+}
+
+.book-card h3 {
+    font-size: 20px;
+}
+
+.book-card p {
+    margin: 2px;
+    font-size: 1.1em;
+}
+
+
+/* display search result style  */
+
+#display-book {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* error message style  */
+
+#no-result {
+    font-size: 2em;
+    color: red;
+    display: none;
+}
+
+.error-style {
+    font-size: 2rem;
+    color: black;
+}
+
+.book-name-type,
+.author-name-type {
+    color: blue;
+    font-size: 2rem;
+}
+
+#spinner {
+    display: none;
+}
